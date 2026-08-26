@@ -3,9 +3,11 @@ name = "contextforge"
 version = "0.1.0"
 description = "Production AI knowledge workspace"
 requires-python = ">=3.11"
+
 dependencies = [
     "fastapi",
     "uvicorn[standard]",
+    "pydantic-settings",
 ]
 
 [project.optional-dependencies]
