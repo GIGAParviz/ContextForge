@@ -1,0 +1,15 @@
+[project]
+name = "contextforge"
+version = "0.1.0"
+description = "Production AI knowledge workspace"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ruff",
+]
